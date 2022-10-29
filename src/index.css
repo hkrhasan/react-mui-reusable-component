@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+
+.inputPhoneNumber .PhoneInputInput {
+  border: solid rgba(0, 0, 0, 0.42);
+  border-width: 0px 0 1px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #00679c;
+  outline: 0;
+}
+
+.inputPhoneNumber.error .PhoneInputInput {
+  border-color: #C80021;
+  border-width: 0px 0 2px;
+}
+
+.inputPhoneNumber .PhoneInputInput::placeholder {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  /* Firefox */
+}
+
+.inputPhoneNumber .PhoneInputInput :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.inputPhoneNumber .PhoneInputInput::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.inputPhoneNumber .PhoneInputCountryIcon {
+  width: 35px;
+  height: auto;
+}
